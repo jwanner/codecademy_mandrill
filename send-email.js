@@ -12,7 +12,7 @@ var params = {
         "from_email":"hello@world.com",
         "to":[{"email":"jacobwanner1@gmail.com"}],
         "subject": "Sending a text email from the Mandrill API",
-        "text": "Hello world and jacob its working."
+        "text": "Hello world and jacob its working.  This is an additional test"
     }
 };
 

@@ -2,11 +2,19 @@
 <html>
     <head>
         <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+        <script src="lib/sweet-alert.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="lib/sweet-alert.css">
         <script type="text/javascript" src="send-email.js"></script>
+        
     	<title>Send a Text Email via Mandrill</title>
     </head>
     <body>
-        <button onclick="sendTheMail(); return false;">Send the Mail</button>
+        <button onclick="sendTheMail(swal); return false;">Send the Mail</button>
         <pre id="response"></pre>
+        
+        <script>
+        
+
+        </script>
     </body>
 </html>

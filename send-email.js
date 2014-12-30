@@ -16,7 +16,7 @@ var params = {
     }
 };
 
-function sendTheMail() {
+function sendTheMail(swal) {
 // Send the email!
 
     m.messages.send(params, function(res) {
@@ -24,4 +24,5 @@ function sendTheMail() {
     }, function(err) {
         log(err);
     });
+    swal(swal("Good job!", "You got the SWAL to work!", "success"));
 }
